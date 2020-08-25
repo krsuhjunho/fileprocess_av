@@ -16,7 +16,7 @@ from framework.util import Util
 from system.model import ModelSetting as SystemModelSetting
 
 # 패키지
-package_name = __name__.split('.')[0]
+package_name = __name__.split('.')[0]+2
 logger = get_logger(package_name)
 from .model import ModelSetting
 from .logic import Logic
