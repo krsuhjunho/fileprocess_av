@@ -28,7 +28,7 @@ from .logic_subcat import LogicSubcat
 blueprint = Blueprint(package_name, package_name, url_prefix='/%s' %  package_name, template_folder=os.path.join(os.path.dirname(__file__), 'templates'))
 
 menu = {
-    'main' : [package_name, 'AV'],
+    'main' : [package_name, 'AV2'],
     'sub' : [
         ['download', '다운로드 파일처리'], ['subcat', '자막다운로드'], ['log', '로그']
     ],
@@ -45,11 +45,11 @@ menu = {
 
 plugin_info = {
     'version' : '0.1.0.0',
-    'name' : 'fileprocess_av',
+    'name' : 'fileprocess_av2',
     'category_name' : 'fileprocess',
     'developer' : 'soju6jan',
-    'description' : '파일처리 - AV',
-    'home' : 'https://github.com/soju6jan/fileprocess_av',
+    'description' : '파일처리 - AV2',
+    'home' : 'https://github.com/krsuhjunho/fileprocess_av',
     'more' : '',
 }
 
